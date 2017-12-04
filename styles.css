@@ -1,0 +1,32 @@
+body {
+    margin: 2% 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div .top-container {
+    font-size: 18px;
+    text-align: justify;
+}
+
+div .list-container{
+    line-height: 2;
+    list-style: square;
+}
+/* 
+footer {
+    margin-bottom: -1px;
+} */
+
+
+/* span {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: inherit;
+    line-height: 1;
+    font-family: FontAwesome;
+} */
