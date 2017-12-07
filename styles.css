@@ -1,6 +1,13 @@
 body {
     margin: 2% 15%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    background-image: url("figs/green_cristals.jpg");
+}
+
+.main-content{
+     background-color: white;
+     padding: 40px 40px 600px 40px;
+     margin-bottom: .5;
 }
 
 div .top-container {
@@ -9,14 +16,40 @@ div .top-container {
 }
 
 div .list-container{
-    line-height: 2;
+    line-height: 1.4;
     list-style: square;
+    margin-left: 40px;
 }
+
+.list-container  a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icon{
+    color: #45bd45;
+    text-decoration: none;
+    font-family:  FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+}
+
+span .label{
+    display: none;
+}
+
+.top-container h1{
+    font-size: 28;
+    margin-bottom: 8px;
+    display: inline
+}
+
+
+
 /* 
 footer {
     margin-bottom: -1px;
 } */
-
 
 /* span {
     font: normal normal normal 14px/1 FontAwesome;
